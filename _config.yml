@@ -1,7 +1,7 @@
 # Site settings
 title: kwSeo's Blog
 email: tkruddnjs1@naver.com
-description: 생략하겠다.
+description: empty
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: none
