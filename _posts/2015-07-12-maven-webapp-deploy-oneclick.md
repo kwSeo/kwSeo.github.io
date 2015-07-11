@@ -60,6 +60,8 @@ warSourceDirectory는 웹애플리케이션의 소스 경로를 지정하고, we
 
 #빌드 및 배포
 빌드를 하기 위해서 maven build 명령을 사용합니다. 이클립스를 예로들면 Run As -> Maven Build...를 클릭하면 
+
 ![이클립스 메이븐 빌드](https://0ba12f0db07e88ab08da87dd592708b14716406a.googledrive.com/host/0B-OVDZGx-FlnX012RWVLbF9icWs)
+
 다음과 같은 그림을 볼 수 있습니다. 여기에서 Base Directory항목에는 배포하기를 원하는 프로젝트를 선택해주고 Goals항목에는 'tomcat7:deploy'라고 입력한 후 Run를 클릭합니다. 그럼 빌드와 함께 자동으로 지정한 서버로 배포하는 것을 볼 수 있습니다.<br>
 참고로 tomcat7 플러그인이지만 tomcat8에서도 동작합니다.
