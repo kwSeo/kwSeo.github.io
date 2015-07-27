@@ -1,19 +1,28 @@
-<!DOCTYPE html>
-<html>
 
+<!DOCTYPE html>
+
+<html>
   {% include head.html %}
 
   <body>
+  <!--[if lt IE 7]>
+      <strong>It seems your browser is quite a bit old, to get latest browser go to this link <a href="http://browsehappy.com">BROWSE HAPPY </a> And get the happy face</strong>
+  <![endif]-->
 
-    {% include header.html %}
+  {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
+    <div class="container">
+
+
         {{ content }}
-      </div>
-    </div>
+
+
 
     {% include footer.html %}
+
+    </div>
+    {% include scriptHolder.html %}
+
 
   </body>
 

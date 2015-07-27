@@ -1,11 +1,14 @@
 # Site settings
 title: kwSeo's Blog
-email: tkruddnjs1@naver.com
-description: empty
+smalltalk: "Share Dev Tech"
+#description: > # My blog Powred by jekyll
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: none
+paginate: 5
+url: "" # the base hostname & protocol for your site
+#twitter_username: 
 github_username:  kwSeo
+#facebook_username: 
+#portfolio_url: 
 
 # Build settings
 markdown: kramdown
