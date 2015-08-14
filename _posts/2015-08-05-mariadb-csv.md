@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "MariaDB에서 CSV파일 로드할 때 주의해야 할 점"
+categories: MariaDB LOAD_DATA_INFILE CSV
 ---
 
 #Summary

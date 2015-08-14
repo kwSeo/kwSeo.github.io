@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TOAST Cloud로 Hadoop 구축하기까지"
+categories: NHN_Ent. TOAST_Cloud Hadoop
 ---
 
 #TOAST Cloud
