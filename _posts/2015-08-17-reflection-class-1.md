@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Java Reflection Class 1/2"
-categories: NHN_Ent. NHN_Ent._CodeCamp@PlayMuseum
+categories: Java Reflection
 ---
 
 #Summary
