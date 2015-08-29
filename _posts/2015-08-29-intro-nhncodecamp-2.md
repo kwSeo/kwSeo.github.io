@@ -7,11 +7,9 @@ categories: NHN_Ent. NHN_Ent._CodeCamp@PlayMuseum
 #Summary
 2015년 8월 25일로 마무리된 NHN Ent. CodeCamp@PlayMuseum 1st 후기.
 
-<div style="text-align: center">
 
 ![NHN Ent. CodeCamp@PlayMuseum 1st](http://googledrive.com/host/0B-OVDZGx-FlnbnNEeTlwU1QyNmc)
 
-</div>
 
 #약 2달 간의 여정
 시간이 정말 빨리 가는 것 같습니다. 학생으로서 마지막 여름방학이 시작되면서 함께 시작했던 NHN Ent. CodeCamp@PlayMuseum 1st(이하 CodeCamp)가 마무리되었습니다. 저는 AFGM이라는 팀으로 참가하여 [RtOM(알톰, RDF to Object Mapper)](https://github.com/kwSeo/RDF-Object-Mapper)를 개발하였습니다. 처음 시작할 때에는 막상 주제를 정하였어도 어떻게 개발할지 막막했는데 어찌어찌 하다보니 되네요. 중간중간 CodeCamp와 다른 일정이 겹쳐서 고생도 하고, 팀원이 멀리 떨어져있어서 직접 만나기 어렵고 참 힘든 일도 많았던거 같은데 지금 막상 되돌아보면 참 재미있었습니다. 보람찬 방학을 보낼 수 있게 해준 NHN Ent.와 함께 CodeCamp에 참가한 다른 팀들, 그리고  같이 프로젝트를 진행한 AFGM 팀원에게도 감사함을 표합니다.  
