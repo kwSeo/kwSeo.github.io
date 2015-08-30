@@ -74,4 +74,6 @@ Spring 프레임워크를 아신다면 @Autowired라는 어노테이션에 대�
 		
 		name : Kim, age : 25
 		
-		
+---
+
+#[Java Reflection Class 1/2](http://kwseo.github.io/java/reflection/2015/08/17/reflection-class-1.html)		

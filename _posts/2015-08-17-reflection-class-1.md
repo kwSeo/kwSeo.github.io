@@ -109,4 +109,6 @@ Java 언어를 공부하는 사용하는 사람이라면 알고있다시피 Java
 		
 		결과값 : true
 
-		
+---
+
+#[Java Reflection Class 2/2](http://kwseo.github.io/java/reflection/2015/08/30/reflection-class-2.html)

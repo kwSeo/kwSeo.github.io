@@ -26,4 +26,6 @@ categories: NHN_Ent. NHN_Ent._CodeCamp@PlayMuseum
 #마무리
 약 2달간 진행되었던 CodeCamp도 마무리되었으며, 저희가 진행하던 [RtOM 프로젝트](https://github.com/kwSeo/RDF-Object-Mapper)도 마무리되어 릴리스되었습니다. 프로젝트를 진행하면서 평가단 및 선배 개발자분들의 조언과 피드백으로 많은 것을 배울 수 있었습니다. 되돌아보면 참 보람찬 2달을 보낸 걱 같습니다. 방학이 끝날 때 쯤 방학을 어떻게 보냈나 되돌아볼 때, 새로운 감흥과 어떻게 보냈는지 기억이 생생하다면 나름 보람차고 의미있게 보낸 것이라고 당당하게 말할 수 있다고 생각합니다. 다시 한번 보람찬 방학을 보낼 수 있게 해준 NHN Ent.와 함께 CodeCamp에 참가한 다른 팀들, 그리고  같이 프로젝트를 진행한 AFGM 팀원에게도 감사함을 표합니다. 
 
+---
 
+#[지금까지의 NHN Ent. CodeCamp@PlayMuseum - 1](http://kwseo.github.io/nhn_ent./nhn_ent._codecamp@playmuseum/2015/08/14/intro-nhncodecamp-1.html)

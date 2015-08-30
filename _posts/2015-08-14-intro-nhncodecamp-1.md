@@ -28,5 +28,9 @@ NHN Ent. CodeCamp@PlayMuseum(이하 NHN CodeCamp)에 참석하게 진행하는 �
 
  - Github: [RDF(SPARQL)-Object Mapping Library](https://github.com/kwSeo/RDF-Object-Mapper)
 
+---
+
+#[지금까지의 NHN Ent. CodeCamp@PlayMuseum - 2 후기](http://kwseo.github.io/nhn_ent./nhn_ent._codecamp@playmuseum/2015/08/29/intro-nhncodecamp-2.html)
+
 
 
