@@ -86,8 +86,8 @@ Book 클래스를 생성하기 위해서는 파라미터가 필요합니다. 거
 
 위처럼 파라미터의 클래스타입을 통해 생성자를 검색해서 얻을 수 있으며, 얻은 생성자를 통해 객체를 생성할 수 있습니다.
 
-##Primitive 타입과 Wapper 클래스
-Java 언어를 공부하는 사용하는 사람이라면 알고있다시피 Java는 Primitive(원시) 타입과 Wapper 클래스가 있습니다. 원시타입은 int, float, double 등과 같이 가장 기본적인 데이터 자료형을 말하며, Wapper 클래스는 Integer, Float, Double 등과 같이 원시타입를 클래스화한 것입니다. 아래의 코드처럼 일반적으로 원시타입과 Wapper타입은 기능을 제외하면 거의 동알한 타입으로 다루어집니다. 그리고 신기하게도 원시타입은 클래스가 아님에도 클래스타입을 가지고 있습니다. 하지만 Class<int>는 사용할 수 없습니다. 제네릭은 원시타입을 지원하지 않으니까요. 그래서 아래의 코드처럼 Class<Integer>로서 받아야합니다.
+##Primitive 타입과 Wrapper 클래스
+Java 언어를 공부하는 사용하는 사람이라면 알고있다시피 Java는 Primitive(원시) 타입과 Wrapper 클래스가 있습니다. 원시타입은 int, float, double 등과 같이 가장 기본적인 데이터 자료형을 말하며, Wrapper 클래스는 Integer, Float, Double 등과 같이 원시타입를 클래스화한 것입니다. 아래의 코드처럼 일반적으로 원시타입과 Wrapper타입은 기능을 제외하면 거의 동알한 타입으로 다루어집니다. 그리고 신기하게도 원시타입은 클래스가 아님에도 클래스타입을 가지고 있습니다. 하지만 Class<int>는 사용할 수 없습니다. 제네릭은 원시타입을 지원하지 않으니까요. 그래서 아래의 코드처럼 Class<Integer>로서 받아야합니다.
 
 		Integer a = 10;
 		int b = new Integer(20);
@@ -101,7 +101,7 @@ Java 언어를 공부하는 사용하는 사람이라면 알고있다시피 Java
 		
 		결과값 : false
 		
-위 결과처럼 int.class와 Integer.class는 서로 다른 클래스타입입니다. 코딩시 이러한 점을 주의할 필요가 있습니다. Integer와 같은 Wapper 클래스는 TYPE이라는 정적 필드를 가지고 있습니다. 이것이 원시타입과 같은 Class 클래스입니다. 
+위 결과처럼 int.class와 Integer.class는 서로 다른 클래스타입입니다. 코딩시 이러한 점을 주의할 필요가 있습니다. Integer와 같은 Wrapper 클래스는 TYPE이라는 정적 필드를 가지고 있습니다. 이것이 원시타입과 같은 Class 클래스입니다. 
 
 		Class<Integer> integerType = Integer.TYPE;
 		Class<Integer> intType = int.class;
