@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "소프트웨어 개발 안에서 테스트를"
+title: "소프트웨어 개발 안에서 테스트를 (with JUnit)"
 categories: java test junit
 ---
 
