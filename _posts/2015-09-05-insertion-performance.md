@@ -84,3 +84,6 @@ categories: java sort insertion_sort
 		//하는 김에 이것도 깔끔하게 수정
 		sortedList.toArray(dataset);
 	}
+
+#추가사항
+하지만 위 코드 역시 문제점을 안고 있다. 바로 add메서드가 남아있다는 것이다. 임의의 위치에 add하는 작업 역시 LinkedList에서는 비교적 많은 시간을 소비한다. 그래서 가장 첫번째로 소개한 코드에 비하면 아직 한참 느리다.
