@@ -31,7 +31,7 @@ Java8의 날짜 및 시간 API의 핵심 아이디어는 아래의 3가지라고
 LocalDate | 날짜만을 표현하는 클래스(년, 월, 일 등) 시간 제외.
 LocalTime | 시간만을 표현하는 클래스(시, 분, 초 등) 날짜 제외.
 LocalDateTime | 날짜와 시간을 모두 표현하는 클래스
-ZonedDateTime | 타인존이 지정된 날짜와 시간을 표현하는 클래스.
+ZonedDateTime | 타임존이 지정된 날짜와 시간을 표현하는 클래스.
 
 ## 날짜 및 시간 객체 생성
 java.time에서 제공하는 클래스는 모두 팩토리메서드 방식으로 객체를 생성하며, 그 방법이 동일하다.
@@ -42,8 +42,8 @@ java.time에서 제공하는 클래스는 모두 팩토리메서드 방식으로
 	LocalTime currentTime = LocalTime.now();
 
 	// 특정 날짜 및 시간 갱체 생성
-	LocalDate yesterday = LocalDate.of(2016, 2, 9);						// 2016/02/09
-	LocalTime thatTime = LocalTime.of(18, 30, 34);						// 18:30:34
+	LocalDate yesterday = LocalDate.of(2016, 2, 9);	// 2016/02/09
+	LocalTime thatTime = LocalTime.of(18, 30, 34);		// 18:30:34
 	LocalDateTime theDay = LocalDateTime.of(yesterday, thatTime);		// 날짜와 시간으로 생성
 	LocalDateTime superDay = LocalDateTime.of(2016, 2, 5, 15, 0, 0);	// 2016/02/05 15:00:00
 	
