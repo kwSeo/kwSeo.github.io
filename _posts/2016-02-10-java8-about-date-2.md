@@ -116,8 +116,11 @@ Java8에서 추가된 날짜 및 시간 API를 이전 버전에서도 사용할 
 	    <version>1.3.1</version>
 	</dependency>
 
+# 이전글
+- [Java8에서의 날짜 - 1/2](http://kwseo.github.io/java/2016/02/09/java8-about-date-1.html)
 
 # References
 - [네이버D2 - Java의 날짜와 시간 API](http://d2.naver.com/helloworld/645609)
 - 이펙티브 자바 2판, 조슈아 블로크 저
 - [Java SE 8 Date and Time](http://www.oracle.com/technetwork/articles/java/jf14-date-time-2125367.html)
+

@@ -59,6 +59,10 @@ add()메소드는 첫번째 인자로 증가하거나 감소할 대상이 되는
 Calendar 클래스의 getTime()메서드로 Date 객체를 얻을 수 있다. 두 클래스 모두 요일을 얻을 수 있는 메소드를 제공하는데, Calendar는 일요일이 1이고 Date는 일요일이 0이다. 서로 동일한 날짜를 나타내며 같은 요일을 표현하는데 다른 상수를 쓰고 있는 것이다.
 
 
+# 다음글
+- [Java8에서의 날짜 - 2/2](http://kwseo.github.io/java/2016/02/10/java8-about-date-2.html)
+
+
 # References
 - [네이버D2 - Java의 날짜와 시간 API](http://d2.naver.com/helloworld/645609)
 - 이펙티브 자바 2판, 조슈아 블로크 저
