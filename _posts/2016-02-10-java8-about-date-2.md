@@ -106,6 +106,17 @@ java.time에서 제공하는 클래스는 모두 팩토리메서드 방식으로
 	Duration durationOfDays = Duration.between(yesterday, today);
 	assertEquals(24, durationOfDays.toHours());
 	
+# JDBC를 위한 SQL 관계
+
+{: .table .table-striped .table-bordered}
+클래스 | SQL 자료형
+---|---
+LocalDate | DATE
+LocalTime | TIME
+LocalDateTime | TIMESTAMP
+OffsetTime | TIME WITH TIMEZONE
+OffsetDateTime | TIMESTAMP WITH TIMEZONE
+
 	
 # Java7을 위한 백포트
 Java8에서 추가된 날짜 및 시간 API를 이전 버전에서도 사용할 수 있도록 백포트를 제공한다. 백포트는 상위버전의 기능을 하위버전에 반영해 주는 것을 의미한다.
@@ -123,4 +134,4 @@ Java8에서 추가된 날짜 및 시간 API를 이전 버전에서도 사용할 
 - [네이버D2 - Java의 날짜와 시간 API](http://d2.naver.com/helloworld/645609)
 - 이펙티브 자바 2판, 조슈아 블로크 저
 - [Java SE 8 Date and Time](http://www.oracle.com/technetwork/articles/java/jf14-date-time-2125367.html)
-
+- [Java SE 8 Doc - Package java.time](https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html)
