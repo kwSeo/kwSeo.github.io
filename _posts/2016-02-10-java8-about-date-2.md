@@ -117,6 +117,24 @@ LocalDateTime | TIMESTAMP
 OffsetTime | TIME WITH TIMEZONE
 OffsetDateTime | TIMESTAMP WITH TIMEZONE
 
+안타깝게도 아직 Java8에서는 새로운 날짜 및 시간 관련 API를 위해 JDBC의 날짜관련 클래스들을 직접 사용할 순 없다. 대신 java.sql 패키지의 날짜 및 시간 관련 클래스들에 java.time패키지에 대응하는 메소드가 추가되었다.
+
+	LocalDate today = LocalDate.now();
+	Date date = Date.valueOf(today);
+	LocalDate localDate = date.toLocalDate();
+	
+	LocalTime currentTime = LocalTime.now();
+	Time time = Time.valueOf(currentTime);
+	LocalTime localTime = time.toLocalTime();
+	
+	LocalDateTime now = LocalDateTime.now();
+	Timestamp timestamp = Timestamp.valueOf(now);
+	LocalDateTime localDateTime = timestamp.toLocalDateTime();
+	
+	Instant instant = Instant.now();
+	Timestamp timestampFromInstant = Timestamp.from(instant);
+	Instant intantFromTimestamp = timestampFromInstant.toInstant();
+	
 	
 # Java7을 위한 백포트
 Java8에서 추가된 날짜 및 시간 API를 이전 버전에서도 사용할 수 있도록 백포트를 제공한다. 백포트는 상위버전의 기능을 하위버전에 반영해 주는 것을 의미한다.
