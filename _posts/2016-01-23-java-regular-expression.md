@@ -31,7 +31,7 @@ x | 문자 x
 표현식 | 의미
 ---|---
 [abc] | a 또는 b 또는 c
-[^abc] | a 또는 b 또는 c로 시작
+[^abc] | a 또는 b 또는 c를 제외한 모든 것
 [a-zA-Z] | a부터 z까지 또는 A부터 Z까지
 [a-z&&[def]] | d 또는 e 또는 f(교집합, intersection)
 (x) | 문자 x(그룹)
