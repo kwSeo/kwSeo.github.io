@@ -72,7 +72,7 @@ x | 문자 x
 표현식 | 의미
 ---|---
 ^x | x로 시작
-x& | x로 끝
+x$ | x로 끝
 
 ### Greedy quantifiers
 
