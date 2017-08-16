@@ -13,7 +13,7 @@ spring-boot-starter-test는 JUnit는 물론이고, AssertJ, Hamcrest를 포함�
 ## 포함되어있는 주요 라이브러리들
 
 기존 Spring framework에서 사용하던 spring-test 이외에도 여러 유용한 라이브러리를 포함하고 있습니다.
-가지고 있는 라이브러리에는 Mocktio도 포함되어있는데 기본적으로 Mocktio 1.x 버전을 사용합니다. 하지만 원한다면 2.x 버전를 사용하는 것도 가능합니다.
+가지고 있는 라이브러리에는 Mocktio도 포함되어있는데 기본적으로 Mocktio 1.x 버전을 사용합니다. 하지만 원한다면 2.x 버전을 사용하는 것도 가능합니다.
 
 - JUnit
 - Spring Test & Spring Boot Test
@@ -129,7 +129,7 @@ public class TestConfigArticleServiceImplTest {
 }
 ```
 
-### MockBean and SpyBean
+### MockBean
 
 spring-boot-test 패키지는 Mockito를 포함하고 있기 때문에 기존에 사용하던 방식대로 Mock 객체를 생성해서 테스트하는 방법도 있지만, spring-boot-test에서는 새로운 방법도 제공하고 있습니다. `@MockBean` 어노테이션을 사용해서 이름 그대로 Mock 객체를 빈으로써 등록할 수 있습니다. 그렇기 때문에 만일 `@MockBean`으로 선언된 빈을 주입받는다면(`@Autowired` 같은 어노테이션 등을 통해서) Spring의 ApplicationContext는 Mock 객체를 주입해줍니다.
 새롭게 `@MockBean`을 선언하면 Mock 객체를 빈으로써 등록을 하지만, 만일 `@MockBean`으로 선언한 객체와 같은 이름과 타입으로 이미 빈으로 등록되어있다면 해당 빈은 선언한 Mock 빈으로 대체됩니다.
