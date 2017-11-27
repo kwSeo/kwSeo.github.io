@@ -12,3 +12,5 @@ github_username:  kwSeo
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
