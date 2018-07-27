@@ -192,3 +192,7 @@ a {
     color: #000 !important; }
 
 /*# sourceMappingURL=custom.css.map */
+
+.img-full {
+  width: 100%;
+}
